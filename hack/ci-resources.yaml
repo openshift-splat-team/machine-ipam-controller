@@ -108,6 +108,7 @@ objects:
                 requests:
                   cpu: 10m
                   memory: 100Mi
+              terminationMessagePolicy: FallbackToLogsOnError
               volumeMounts:
                 - mountPath: /var/run/secrets/kubernetes.io/serviceaccount
                   name: kube-api-access-8tcfz
