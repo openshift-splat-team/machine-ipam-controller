@@ -4,7 +4,7 @@
 An example of a controller which decorates machine resources with 
 nmstate state data.  
 
-__DISCLAIMER:__ This is a reference project intended to test the static IP capabilities introduced in OpenShift 4.14.  It is not supported by Red Hat but the SPLAT team will happily review PRs and filed issues.  The automated image builds are intended for use by OpenShift and OKD CI only.  It is _strongly_ encouraged that you perform your own image builds with an image that meet the requirements of your organization.
+__DISCLAIMER:__ This is a reference project intended to test the static IP capabilities introduced in OpenShift 4.14.  It is not supported by Red Hat but the SPLAT team will happily review PRs and filed issues.  The automated image builds are intended for use by OpenShift and OKD CI only.  It is _strongly_ encouraged that you perform your own image builds with an image that meets the requirements of your organization.
 
 ## What does it do?
 This controller manages IPPools that are referenced by IPAddressClaims. 
