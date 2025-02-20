@@ -13,6 +13,6 @@ COPY --from=buf /usr/local/bin/buf /usr/local/bin/buf
 COPY . .
 RUN make server client
 
-FROM alpine:3.16
+FROM alpine:3.21.3
 COPY --from=builder /work/bin/* /
 ENTRYPOINT [ "/server" ]
