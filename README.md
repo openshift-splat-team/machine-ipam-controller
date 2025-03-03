@@ -1,5 +1,7 @@
 # machine-ipam-controller
 
+** The canonical repo now resides at https://github.com/openshift-eng/machine-ipam-controller **
+
 ## Overview
 An example of a controller which decorates machine resources with 
 nmstate state data.  
